@@ -13,4 +13,5 @@ function calcularPromedio(lista){
             return valorAcumulado + elementoActual;
         }
     )
+    return suma/lista.length;
 }
