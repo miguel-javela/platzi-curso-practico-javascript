@@ -18,10 +18,10 @@ const notes1 = [
 
 
 
-
 function calcularPromedioPonderado(notes){
     //crea un array donde cada posicion es el resultado de la multiplicacion
     //de los atributos note y credit de cada objeto
+    //suma notas en total creando un array
     const notesWithCredit = notes.map(function (noteObject) {
         return noteObject.note * noteObject.credit;
     });
